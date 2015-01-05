@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	It you can pinpoint the line in question, spotting the error is far easier. Once the line has been identified, doing a character by character comparison is manageable and, for some bugs, necessary to identify the issue.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	It would make it easier to spot a difference and would also encouraging thinking about changes/additions that are made as logical blocks which should help in the design phase.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros are that you can be pretty sure that when you manually choose, you have a logical milestone of a workable build. The con is that you are you have to rely on yourself to remember to make that commit and to document it accordingly.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    The tools that allow multiple files are usually associated with software or website development where multiple files define a discrete body of work. With Google Docs, for example, there isn't any logical association between separate files except ones that a user would manually enforce.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log presents a nice digest of each commit that you can then use git diff to view the details of what has changed
+
+How might using version control make you more confident to make changes that could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+	
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+	Granular control would be best, especially as the size of a commit is not based on lines changed or character count. Size is relative/contextual.
