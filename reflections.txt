@@ -25,11 +25,14 @@ How can you use the commands git log and git diff to view the history of files?
 
 How might using version control make you more confident to make changes that could break something?
 
-    Fill in your answer here
+    Making wholesale changes to code usually means biting off a large chunk of work but with version control and being able to easily rollback to a working commit, forking branches, etc. would make it far easier to make changes.
+    I especially like the idea of being able to merge back portions of branches into the master so that any incremental improvements made on a fork/branch are easily folded back in. Trying to do that manually would be a nightmare.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    Well, the first thing I think I'll do it use it to keep sync'd on progress/work done on these projects from the two machines that I am using.
+    The second thing will be to set up a training tracking sheet that I will use commits to keep a log of the changes and therefore my progress.
+    With a tool like git you could use it to track almost anything that changed over time. Genetic mutations in population over time?! Anything you can think of really.
 	
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 	Granular control would be best, especially as the size of a commit is not based on lines changed or character count. Size is relative/contextual.

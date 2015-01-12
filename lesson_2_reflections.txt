@@ -1,6 +1,23 @@
 What happens when you initialize a repository? Why do you need to do it?
-
+    You create a "container" for your project. You need to have a starting point in the chain. An initial node.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+    It is an intermediate location for, as the name says, staging files, so you use that to construct what constitutes a particular commit. It's an organizational area to figure out what you want to have in the commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+    git diff --staged will give a summary of the differences in the files in the staging area so you can identify the scope of the commit you are composing.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    What-if scenarios would use branches and would help keep them organized in my mind. Perhaps naming of the branches would enhance that.
+
+How do the diagrams help you visualize the branch structure?
+    It's the "family tree" of the project you are working on (actually the whole genetics/breeding metaphor works pretty well here)
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+    It results in a new consolidated branch. And as there can be multiple branches included in a merge, it would be the way to bring together a team's effort into a release. It's representation in the diagram makes logical sense in visualizing the relationship of the branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+    If I understand it correctly, automatic merging runs the risk of creating a commit that doesn't make logical sense or may not represent a logical commit however, manually merging branches would potentially require an individual to be familiar with an extremely large body of material.
+	
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	For collaborative projects where common elements may be involved in changes by others, you might want your local work to stay separate until you are ready to combine them later.
